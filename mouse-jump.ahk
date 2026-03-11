@@ -1,8 +1,5 @@
-﻿#Requires AutoHotkey v2.0-a
-#Include <Gdip_All>
-
-
-$F1::MouseJump()
+﻿#Requires AutoHotkey v2.1-a
+#Include ..\..\lib\Gdip_All.ahk
 
 class MouseJump {
     static Call(*) {
